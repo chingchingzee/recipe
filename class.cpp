@@ -20,6 +20,8 @@ int divide_class(int vol)
         case 3:
         class_no=classC();
         break;
+        default:
+        class_no=0;
     }
-    return 
+    return class_no;
 }
