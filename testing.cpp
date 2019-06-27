@@ -9,6 +9,8 @@ int main(void)
     printf("\r\nHere is main func.");
     value=func1(10);
     printf("\r\nHere is the value [%d].",value);
+
+    printf("\r\nHere is the end of the main func.");
     return 0;
 }
 
