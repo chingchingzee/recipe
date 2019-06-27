@@ -16,5 +16,6 @@ int func1(int cal)
 {
     for(int i=0;i<10;i++)
     {cal=cal+1;}
+    cal = cal*10;
     return cal;
 }
